@@ -15,5 +15,5 @@ jobs:
    
    - name: trivyrun
      uses: aquasecurity/trivy-action@0.30.0
-      with: 
+     with: 
           image-ref: app:latest
