@@ -13,3 +13,7 @@ jobs:
      run:  |
           docker build -t app:latest .
    
+   - name: trivyrun
+      uses: aquasecurity/trivy-action@0.30.0
+      with: 
+          image-ref: app:latest
